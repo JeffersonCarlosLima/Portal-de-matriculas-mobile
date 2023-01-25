@@ -1,0 +1,166 @@
+@import url(variaveis_.css);
+@import url(reset.css);
+
+body{
+  background-color: var(--secundary5);
+  font-family: 'Poppins', sans-serif;
+}
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48
+}
+.top-bar{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px 8px;
+    gap: 248px;
+    width: auto;
+    height: 40px;
+    background-color: var(--secundary);
+    align-items: center;
+}
+.button-menu{
+    border: none;
+    background-color:var(--secundary);
+    color: white
+}
+.text-cabecalho{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 8px;
+}
+.cabecalho{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 16px;
+  gap: 8px;
+  border-bottom: solid 0.5px var(--grey5);
+}
+.title-cabecalho{
+  font-weight: 600;
+  font-size: 16px;
+  
+}
+.name-prefeitura{
+  font-weight: 400;
+  font-size: 12px;
+}
+.container{
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+.card-login{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  gap: 16px;
+  margin: 16px;
+  padding: 16px;
+  border:solid 1px var(--secundary2);
+  filter: drop-shadow(0px 4px 8px rgba(0, 0, 0, 0.16));
+  border-radius: 8px;
+  background-color: var(--white);
+}
+.title-card-login{
+  font-weight: 800;
+  font-size: 14px;
+  color: var(--grey1);
+}
+.subtitle-card-login{
+  font-weight: 400;
+  font-size: 12px;
+  color: var(--grey1);
+  line-height: 18px;
+}
+.login-user{
+  display: flex;
+  flex-direction:column;
+  align-items: flex-start;
+  gap: 8px;
+}
+label{
+  font-weight: 400;
+  font-size: 14px;
+
+}
+.input-login{
+  height: 32px;
+  border-left: none;
+  border-right: none;
+  border-top: none;
+  border-bottom:solid 2px;
+  border-color: var(--secundary2);
+  width: 100%;
+}
+.esqueceu-senha{
+  color: var(--secundary2);
+  font-weight: 400;
+  font-size: 12px;
+}
+
+.input-login::placeholder{
+  opacity: 50%;
+  padding-left: 8px;
+}
+.container-btn{
+  display: flex;
+  flex-direction: row;
+  gap:16px
+}
+button{
+  display: flex;
+  border-radius: 8px;
+  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.16);
+  border: none;
+}
+.btn-login-entrar{
+  width: 100%;
+  height: 32px;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--secundary2);
+  color: var(--white);
+  font-weight: 600;
+
+}
+.btn-login-cadastrar{
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+  border:solid 1px var(--secundary2);
+  color: var(--secundary2);
+  font-weight: 600;
+}
+.title-video{
+  display: flex;
+  font-weight: 700;
+  font-size: 14px;
+}
+.card-reserve-sua-vaga{
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-items: center;
+  width: 100%;
+  margin: 0 16px;
+  padding: 16px;
+  justify-content: center;
+  background-color: var(--white);
+  box-shadow: 0px 0px 16px rgba(0, 0, 0, 0.16);
+  border-radius: 10px;
+}
+.video{
+  border-radius: 8px;
+  width: 100%;
+}
