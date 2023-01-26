@@ -5,13 +5,15 @@ body{
   background-color: var(--secundary5);
   font-family: 'Poppins', sans-serif;
 }
-.material-symbols-outlined {
+
+.material-symbols-rounded {
   font-variation-settings:
   'FILL' 0,
   'wght' 400,
   'GRAD' 0,
   'opsz' 48
 }
+
 .top-bar{
     display: flex;
     flex-direction: row;
@@ -44,10 +46,14 @@ body{
   gap: 8px;
   border-bottom: solid 0.5px var(--grey5);
 }
-.title-cabecalho{
+.title-cabecalho-top{
   font-weight: 600;
   font-size: 16px;
   
+}
+.cabecalho-left{
+  display: flex;
+  flex-direction: column;
 }
 .name-prefeitura{
   font-weight: 400;
@@ -142,11 +148,7 @@ button{
   color: var(--secundary2);
   font-weight: 600;
 }
-.title-video{
-  display: flex;
-  font-weight: 700;
-  font-size: 14px;
-}
+
 .card-reserve-sua-vaga{
   display: flex;
   flex-direction: column;
@@ -164,3 +166,118 @@ button{
   border-radius: 8px;
   width: 100%;
 }
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  padding: 12px 16px;
+  z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+.accordeon-home{
+  display: flex;
+  flex-direction: column;
+  margin: 16px;
+  width: 100%;
+  background-color: var(--white);
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  padding: 8px;
+  border-radius: 8px;
+  gap: 2px;
+}
+
+.btn-accordeon{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+  background-color: var(--white);
+  color: var(--secundary2);
+  width: 100%;
+  height: 40px;
+  cursor: pointer;
+  font-weight: 400;
+  font-size: 12px;
+  border: solid 0.5px var(--grey5);
+  box-shadow: none;
+  
+}
+
+.conteudo-informacoes{
+  display: flex;
+  font-size: 14px;
+  font-weight: 400;
+  width: 100%;
+  padding: 16px;
+  color: var(--grey2);
+
+}
+
+.title-cabecalho{
+  display: none;
+}
+ .cabecalho-view{
+  display: flex;
+  width: auto;
+  padding: 16px;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16px;
+  text-align: justify;
+  background-color: var(--white);
+  border-radius: 8px;
+ }
+ .calendar-matriculas{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin: 0px 16px;
+  width: 100%;
+  background-color: var(--white);
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  padding: 8px;
+  border-radius: 8px;
+}
+ .img-calendar-matriculas{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 80px;
+  background-color: var(--secundary5);
+ }
+
+ .text-calendar{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 8px;
+  align-items: center;
+  color: var(--grey2);
+ }
+ .text-calendar-matriculas{
+  font-size: 12px;
+  line-height: 18px;
+  font-style: normal;
+  font-weight: 400;
+ }
+ .title-h4{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--grey1);
+  width: 100%;
+  padding: 16px 0px;
+ }
+ 
