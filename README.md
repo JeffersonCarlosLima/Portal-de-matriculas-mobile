@@ -1,4 +1,4 @@
-# Portal-de-matriculas
+# Portal de Matriculas Mobile
 --
 Projeto realizado meramente para fins de demonstração dos conheceimentos em HTML, CSS e JS
 --
